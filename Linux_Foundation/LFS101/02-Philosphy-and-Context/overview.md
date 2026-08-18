@@ -43,11 +43,11 @@ Philosophy & Context
 
 | Document | Topic | Description |
 | :--- | :--- | :--- |
-| [linux-history.md](file:///c:/Users/ron/Documents/Ron-work/Learning-Linux/Linux_Foundation/LFS101/Philosphy-and-Context/linux-history.md) | **History & Origins** | From UNIX and the GNU Project to Linus Torvalds and modern ubiquity. |
-| [linux-philosphy.md](file:///c:/Users/ron/Documents/Ron-work/Learning-Linux/Linux_Foundation/LFS101/Philosphy-and-Context/linux-philosphy.md) | **Design Philosophy** | The Unix tenets: modular tools, "everything is a file", text streams, and separation of concerns. |
-| [linux-terminology.md](file:///c:/Users/ron/Documents/Ron-work/Learning-Linux/Linux_Foundation/LFS101/Philosphy-and-Context/linux-terminology.md) | **Core Terminology** | Essential vocabulary: Kernel, Shell, User Space, Daemons, FHS, POSIX, and permissions. |
-| [linux-distribution.md](file:///c:/Users/ron/Documents/Ron-work/Learning-Linux/Linux_Foundation/LFS101/Philosphy-and-Context/linux-distribution.md) | **Linux Distributions** | Anatomy of a distro, major distro families (Debian, Red Hat, SUSE, Arch), and package managers. |
-| [linux-community.md](file:///c:/Users/ron/Documents/Ron-work/Learning-Linux/Linux_Foundation/LFS101/Philosphy-and-Context/linux-community.md) | **Community & Support** | Open source dynamics, finding help, communication channels, and contributing back. |
+| [linux-history.md](file:///c:/Users/ron/Documents/Ron-work/Learning-Linux/Linux_Foundation/LFS101/02-Philosphy-and-Context/linux-history.md) | **History & Origins** | From UNIX and the GNU Project to Linus Torvalds and modern ubiquity. |
+| [linux-philosphy.md](file:///c:/Users/ron/Documents/Ron-work/Learning-Linux/Linux_Foundation/LFS101/02-Philosphy-and-Context/linux-philosphy.md) | **Design Philosophy** | The Unix tenets: modular tools, "everything is a file", text streams, and separation of concerns. |
+| [linux-terminology.md](file:///c:/Users/ron/Documents/Ron-work/Learning-Linux/Linux_Foundation/LFS101/02-Philosphy-and-Context/linux-terminology.md) | **Core Terminology** | Essential vocabulary: Kernel, Shell, User Space, Daemons, FHS, POSIX, and permissions. |
+| [linux-distribution.md](file:///c:/Users/ron/Documents/Ron-work/Learning-Linux/Linux_Foundation/LFS101/02-Philosphy-and-Context/linux-distribution.md) | **Linux Distributions** | Anatomy of a distro, major distro families (Debian, Red Hat, SUSE, Arch), and package managers. |
+| [linux-community.md](file:///c:/Users/ron/Documents/Ron-work/Learning-Linux/Linux_Foundation/LFS101/02-Philosphy-and-Context/linux-community.md) | **Community & Support** | Open source dynamics, finding help, communication channels, and contributing back. |
 
 ---
 
