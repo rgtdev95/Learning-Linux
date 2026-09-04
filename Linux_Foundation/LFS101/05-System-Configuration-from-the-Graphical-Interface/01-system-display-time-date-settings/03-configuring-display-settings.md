@@ -1,13 +1,32 @@
-Video Transcript
-[Music]
+# Configuring Display Settings (Demo Notes)
 
-[Kevin Smallwood] Now, let's talk about configuring Display settings. This is very similar across all of the major distributions. Usually, there's just real subtle differences between them. For example, let's look on an Ubuntu system.
+This demo walks through configuring display settings on Ubuntu. The process is very similar across all major distributions, with only subtle differences.
 
-What we're going to do first is go to the Settings. So, we're going to come up here in the upper right-hand corner, click on that, then click on this little gear wheel here, and we bring up the Settings dialogue. This just happened to be where I last left it, which is Systems. But if we look along the left-hand menus here, and we can scroll up, we'll see that there's a setting along here called Displays. Now, on some systems, again, depending on the version of GNOME and so forth, you might also find this somewhere along here, where it says Devices. Then, you would click on that and it would give you Displays as an example. In this case, we're going to look at Displays directly and here we can see, for example, the orientation, the resolution so we can change this if we need to. We have lots of things to decide on the size that we might want it to be.
+## 1. Opening Display Settings
 
-I'm just going to continue with the size that I currently have it at. Also, the refresh rate and even the scaling. Okay. There's also a feature on here called Nightlight, which allows certain types of lighting during the night that's not supposed to stress your eyes and things like that. Okay. Anyway, that's how you would change this. Now, as it turns out, if there are multiple displays, there would actually be another line in here that shows the different displays, and you would be able to click on, usually a little menu that would drop down, and then you could display or select which display you want to examine. In this particular case, we just have this single display here, and that's all we need to do. But again, if I were to change this, let's go for the... how about this one, 1600 by 900. Okay. And then we would click on Apply. Okay.  
+1. Click the system menu in the **upper-right corner**, then click the **gear wheel** icon to bring up the Settings dialog.
+2. Settings opens wherever it was last left (in the demo, it happened to be on **System**).
+3. Scroll the left-hand sidebar to find **Displays**. On some systems, depending on the GNOME version, this may instead be nested under **Devices** → **Displays**.
 
-And we can kind of see what the changes we have here. I'm going to go ahead and click on Revert Settings just because I may as well keep what it did have before. And again, this is very similar across all the major distributions. Usually, the hardest part is finding where the displays are. But again, that would be something that when you go into your settings, you would generally find it, usually either directly as Displays or somewhere along here there would be something that says Devices. You might have to scroll down and there would be something that would say like Devices, and then when you click on that, you would have Displays as a choice.
+## 2. Available Options
 
-[Music]
+Once in Displays, the panel shows:
 
+- **Orientation**
+- **Resolution** — with a range of sizes to choose from
+- **Refresh Rate**
+- **Scaling**
+- **Night Light** — a feature that adjusts the lighting at night so it isn't as stressful on the eyes
+
+## 3. Multiple Displays
+
+If more than one display is connected, an additional line appears listing the displays, with a dropdown to select which one to examine or configure. With a single display connected, this extra selector doesn't appear.
+
+## 4. Changing and Applying a Resolution
+
+1. Select a different resolution from the list (in the demo: 1600×900).
+2. Click **Apply** to preview the change.
+3. Click **Revert Settings** to discard the change and return to the previous, known-working configuration.
+
+> [!NOTE]
+> Across all major distributions, the process is nearly identical. The hardest part is usually just finding where Displays lives — either directly in the Settings sidebar, or nested under a **Devices** category.

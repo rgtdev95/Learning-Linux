@@ -1,68 +1,59 @@
-Accessing System Settings
+# System Settings
 
-The Settings application is the central location for configuring your system. From here, you can adjust display settings, manage network connections, change the date and time, configure users, and much more, all without touching the command line.
+## 1. Accessing System Settings
 
-On GNOME-based distributions, the quickest way to open Settings is to click the icon cluster in the upper-right corner of the screen and select the Settings icon, typically represented by a gear. You can also search for "Settings" in the Activities Overview. On Ubuntu specifically, Settings is also pinned to the sidebar dock by default.
+The **Settings** application is the central location for configuring your system. From here, you can adjust display settings, manage network connections, change the date and time, configure users, and much more — all without touching the command line.
 
-The layout of the Settings application varies somewhat between distributions and GNOME versions, so the exact location of a particular option may differ from what is shown in this course.
+| Method | Detail |
+| :--- | :--- |
+| System menu | Click the icon cluster in the upper-right corner → select the **Settings** icon (typically a gear) |
+| Search | Type "Settings" in the Activities Overview |
+| Dock (Ubuntu) | Settings is pinned to the sidebar dock by default |
 
+> [!NOTE]
+> The layout of the Settings application varies somewhat between distributions and GNOME versions, so the exact location of a particular option may differ from what's shown in this course. If a setting can't be found immediately, scanning the sidebar usually turns it up — most things are where you'd intuitively expect them to be.
 
+## 2. Navigating System Settings
 
-System Settings Panel
-(Select the image to see an enlarged version)
+The sidebar organizes configuration options into logical categories. Selecting a category opens its options in the main panel. Commonly used sections include:
 
-If you cannot find a setting immediately, it is worth scanning through the sidebar; most things are where you would intuitively expect them to be.
+| Section | Covers |
+| :--- | :--- |
+| **Displays** | Screen resolution, refresh rate, multi-monitor configuration |
+| **Network** / **Wi-Fi** | Wired and wireless connection management |
+| **Date & Time** | Time zone and automatic time synchronization |
+| **Users** | User accounts, passwords, login pictures |
+| **Apps** / **Default Applications** | Which application handles each file type or task |
 
-Navigating System Settings
+> [!NOTE]
+> On some distributions, certain options are nested one level deeper — on older Ubuntu versions, for example, display settings are found under **Devices → Displays** rather than directly under **Displays**. If an option doesn't appear where expected, check for a sub-category.
 
-The Settings sidebar organizes configuration options into logical categories. Selecting any category opens its options in the main panel. Some commonly used sections include:
+For example, the **Users** panel (which may sit under a **System** sub-category) is where login pictures, passwords, and other per-account attributes are configured.
 
-•
-Displays - screen resolution, refresh rate, and multi-monitor configuration.
+## 3. GNOME Tweaks and Extensions
 
-•
-Network or Wi-Fi - wired and wireless connection management.
+As covered in [Changing the Desktop Theme](../../04-Graphical-Interface/01-graphical-desktop/04-graphical-desktop-background-and-themes.md), **GNOME Tweaks** and **GNOME Extensions** are the tools to reach for when the standard Settings application doesn't expose what's needed. Several settings users would reasonably expect to find in Settings — controlling which applications launch at login, fine-tuning font rendering, adjusting keyboard behavior — are only accessible through these tools.
 
-•
-Date & Time - time zone and automatic time synchronization.
+### Startup Applications
 
-•
-Users - user accounts, passwords, and login pictures.
+To launch a specific application automatically at every login, configure it in **GNOME Tweaks → Startup Applications**. Some modern applications include their own "Start at Login" toggle in their preferences, but GNOME Tweaks remains the only reliable graphical method for managing startup behavior across all distributions.
 
-•
-Apps or Default Applications - which application handles each file type or task.
+### Keyboard Layout and Behavior
 
-On some distributions, certain options are nested one level deeper. On older Ubuntu versions, for example, display settings are found under Devices → Displays rather than directly under Displays. If an option does not appear where you expect it, check for a sub-category.
+The division of keyboard settings between the two tools has shifted in recent GNOME versions:
 
+| Setting | Where |
+| :--- | :--- |
+| Basic language layouts, key repeat | **Settings → Keyboard** (current distributions such as Ubuntu 24.04, Fedora 40+) |
+| Advanced remapping (e.g., CapsLock as an additional Ctrl or Escape key) | **GNOME Tweaks → Keyboard & Mouse → Additional Layout Options** |
 
-Configuring Applications on Ubuntu
+### Managing Extensions
 
-For example, you can select the Users icon (which may be under System) to set values for system users, such as their login picture, password, etc.
+On current distributions running GNOME 46+ (Ubuntu 24.04, Fedora 40+, RHEL 10, openSUSE Tumbleweed), extension management has been fully removed from GNOME Tweaks and lives entirely in the dedicated **Extensions** app. On Fedora and openSUSE, a popular third-party alternative called **Extension Manager** is widely used — unlike the default Extensions app, it allows browsing and installing extensions directly, without needing a browser connector to the GNOME Extensions website.
 
+> [!WARNING]
+> Major GNOME version jumps frequently break existing extensions. On a cutting-edge distribution such as Fedora 43/44 or openSUSE Tumbleweed (potentially GNOME 49/50), always check extension compatibility in Extension Manager before updating, or after a major distribution upgrade.
 
-Configuring the User Attributes
+### Launching GNOME Tweaks Without a Menu Entry
 
-GNOME Tweaks and Extensions
-
-As covered in Chapter 4, GNOME Tweaks and GNOME Extensions are the tools to reach for when the standard Settings application does not expose what you need. This is worth revisiting here in the context of system configuration, because several settings that users would reasonably expect to find in Settings (such as controlling which applications launch at login, fine-tuning font rendering, or adjusting keyboard behavior) are only accessible through these tools.
-
-Select the plus (+) sign next to the option name to view a few things worth knowing as you work through the configuration tasks in this chapter.
-
-
-Startup applications
-If you want a specific application to launch automatically every time you log in, this is configured in GNOME Tweaks under the Startup Applications tab. While some modern applications include a "Start at Login" toggle in their own preferences, GNOME Tweaks remains the only reliable graphical method for managing startup behavior across all distributions.
-
-
-Keyboard layout and behavior
-The division of keyboard settings between the two tools has shifted in recent GNOME versions. Basic language layouts and key repeat settings are now handled in Settings → Keyboard on current distributions such as Ubuntu 24.04 and Fedora 40 and later. Advanced remapping options, such as making the CapsLock key behave as an additional Ctrl or Escape key, remain in GNOME Tweaks → Keyboard & Mouse under Additional Layout Options.
-
-
-Managing extensions
-On current distributions running GNOME 46 and later (including Ubuntu 24.04, Fedora 40+, RHEL 10, and openSUSE Tumbleweed), extension management has been fully removed from GNOME Tweaks and lives entirely in the dedicated Extensions app. On Fedora and openSUSE, a popular third-party alternative called Extension Manager is widely used; unlike the default Extensions app, it allows you to browse and install extensions directly without requiring a browser connector to the GNOME Extensions website.
-
-Compatibility note:
-If you are running a cutting-edge distribution such as Fedora 43/44 or openSUSE Tumbleweed, you may be on GNOME 49 or 50. Major GNOME version jumps frequently break existing extensions. Always check extension compatibility in the Extension Manager before updating or after a major distribution upgrade.
-
-
-Launching GNOME Tweaks without a menu entry
-On some distributions, particularly RHEL or minimal Fedora installations, GNOME Tweaks may not appear in the application grid immediately after installation. In that case, press Alt+F2, type ‘gnome-tweaks’, and press Enter. This key combination opens a run dialog that accepts any valid application name, a useful shortcut whenever a newly installed application does not appear in the menu immediately.
+On some distributions — particularly RHEL or minimal Fedora installations — GNOME Tweaks may not appear in the application grid immediately after installation. Press **Alt+F2**, type `gnome-tweaks`, and press Enter. This opens a run dialog that accepts any valid application name, a useful shortcut whenever a newly installed application doesn't appear in the menu right away.
