@@ -4,7 +4,7 @@
 
 When working in Linux, it is essential to distinguish between the **physical storage medium (the hardware)** and the **logical organization (the software)**:
 
-![Windows vs Linux Storage Model Infographic](../../Images/storage-mounting-model.jpg)
+![Windows vs Linux Storage Model Infographic](../../images/storage-mounting-model.jpg)
 
 ```text
 +-------------------------------------------------------------------------+

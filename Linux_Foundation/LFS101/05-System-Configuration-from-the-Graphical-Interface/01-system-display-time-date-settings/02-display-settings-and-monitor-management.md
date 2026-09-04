@@ -39,7 +39,7 @@ When an additional monitor is connected, the system typically detects it and ext
 
 ## 5. A Note on the Underlying Display Infrastructure
 
-As discussed in [How the Graphical Desktop Loads](../../04-Graphical-Interface/01-graphical-desktop/01-how-graphical-desktop-loads.md), Linux uses a **display server** to draw windows and manage keyboard/mouse input. Current distributions — Ubuntu 22.04+, Fedora, RHEL — use **Wayland** as the default, which handles modern features like fractional scaling and multi-monitor configuration more reliably than its predecessor.
+As discussed in [How the Graphical Desktop Loads](../../04-graphical-interface/01-graphical-desktop/01-how-graphical-desktop-loads.md), Linux uses a **display server** to draw windows and manage keyboard/mouse input. Current distributions — Ubuntu 22.04+, Fedora, RHEL — use **Wayland** as the default, which handles modern features like fractional scaling and multi-monitor configuration more reliably than its predecessor.
 
 The legacy **X11** session remains available on Ubuntu 24.04 and some other current distributions, primarily for compatibility with older hardware or specific enterprise environments that require it. It's being phased out: Ubuntu 25.10 and later no longer offer an X11 GNOME session. On a current distribution with no specific reason to use X11, Wayland is the right choice.
 

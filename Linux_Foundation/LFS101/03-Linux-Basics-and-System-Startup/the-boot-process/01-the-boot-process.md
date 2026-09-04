@@ -75,4 +75,4 @@ Familiarity with each boot stage is one of the most critical skills for Linux ad
 
 ## 4. Course Reference Image
 
-![Linux Boot Process Diagram](file:///c:/Users/ron/Documents/Ron-work/Learning-Linux/Linux_Foundation/LFS101/Images/image.png)
+![Linux Boot Process Diagram](file:///c:/Users/ron/Documents/Ron-work/Learning-Linux/Linux_Foundation/LFS101/images/image.png)

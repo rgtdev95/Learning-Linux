@@ -6,7 +6,7 @@ A **filesystem** is the underlying logical structure that an operating system us
 
 Without a filesystem, a storage drive is merely a raw, unstructured sequence of bits and bytes. The filesystem acts like a library's cataloging system: it tracks file names, directory structures, permissions, timestamps, data block allocations, and metadata.
 
-![Linux Filesystem Types Architecture](../../Images/filesystem-types-diagram.jpg)
+![Linux Filesystem Types Architecture](../../images/filesystem-types-diagram.jpg)
 
 ```text
 +-------------------------------------------------------------------------+

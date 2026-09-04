@@ -32,7 +32,7 @@ For example, the **Users** panel (which may sit under a **System** sub-category)
 
 ## 3. GNOME Tweaks and Extensions
 
-As covered in [Changing the Desktop Theme](../../04-Graphical-Interface/01-graphical-desktop/04-graphical-desktop-background-and-themes.md), **GNOME Tweaks** and **GNOME Extensions** are the tools to reach for when the standard Settings application doesn't expose what's needed. Several settings users would reasonably expect to find in Settings — controlling which applications launch at login, fine-tuning font rendering, adjusting keyboard behavior — are only accessible through these tools.
+As covered in [Changing the Desktop Theme](../../04-graphical-interface/01-graphical-desktop/04-graphical-desktop-background-and-themes.md), **GNOME Tweaks** and **GNOME Extensions** are the tools to reach for when the standard Settings application doesn't expose what's needed. Several settings users would reasonably expect to find in Settings — controlling which applications launch at login, fine-tuning font rendering, adjusting keyboard behavior — are only accessible through these tools.
 
 ### Startup Applications
 

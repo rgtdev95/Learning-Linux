@@ -7,7 +7,7 @@ The **Filesystem Hierarchy Standard (FHS)** is an open specification that standa
 - **Current Specification**: **FHS 3.0** (originally released by The Linux Foundation, now maintained under **FreeDesktop.org**).
 - **Core Benefit**: **Interoperability and Portability**. Because distributions adhere to this standard, a sysadmin or developer can navigate Ubuntu, Debian, Red Hat Enterprise Linux, Fedora, openSUSE, or Arch Linux without having to re-learn where configurations, system binaries, log files, or user data reside.
 
-![Linux Filesystem Hierarchy Standard FHS 3.0](../../Images/fhs-tree-diagram.jpg)
+![Linux Filesystem Hierarchy Standard FHS 3.0](../../images/fhs-tree-diagram.jpg)
 
 ```text
 +-------------------------------------------------------------------------+

@@ -4,7 +4,7 @@
 
 One of the most noticeable differences when transitioning from Windows or macOS to Linux is that **Linux filesystems are strictly case-sensitive**.
 
-![Case Sensitivity and UsrMerge Architecture Infographic](../../Images/usrmerge-diagram.jpg)
+![Case Sensitivity and UsrMerge Architecture Infographic](../../images/usrmerge-diagram.jpg)
 
 ```text
 In Linux:

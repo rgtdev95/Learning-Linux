@@ -15,7 +15,7 @@ The preferred method for shutting down or rebooting the system is the `shutdown`
 > [!NOTE]
 > Both `shutdown` and `reboot` require superuser (root) access.
 >
-> This is the command-line equivalent of the GUI Power Off/Restart flow covered in [Shutting Down and Restarting](../../04-Graphical-Interface/02-session-management/07-shutting-down-and-restarting.md).
+> This is the command-line equivalent of the GUI Power Off/Restart flow covered in [Shutting Down and Restarting](../../04-graphical-interface/02-session-management/07-shutting-down-and-restarting.md).
 
 ## 2. Scheduling a Shutdown with a Notification
 

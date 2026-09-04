@@ -13,7 +13,7 @@ Depending on a distribution's policy, programs and software packages can be inst
 | `~/bin` (e.g., `/home/student/bin`) | A user's own local binaries |
 
 > [!NOTE]
-> As covered in [A Closer Look at the Filesystem Hierarchy](../../03-Linux-Basics-and-System-Startup/understanding-linux-file-system/04-closer-look-at-the-filesystem-hierarchy.md), on modern systemd-based distributions (including Ubuntu 24.04, recent CentOS, and openSUSE), `/bin` and `/sbin` are now simply symbolic links into their `/usr` counterparts — the "usr-merge." So `/bin/diff` and `/usr/bin/diff` refer to the same file.
+> As covered in [A Closer Look at the Filesystem Hierarchy](../../03-linux-basics-and-system-startup/understanding-linux-file-system/04-closer-look-at-the-filesystem-hierarchy.md), on modern systemd-based distributions (including Ubuntu 24.04, recent CentOS, and openSUSE), `/bin` and `/sbin` are now simply symbolic links into their `/usr` counterparts — the "usr-merge." So `/bin/diff` and `/usr/bin/diff` refer to the same file.
 
 ## 2. Locating a Program: `which`, `whereis`, `type`
 
