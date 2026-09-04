@@ -1,0 +1,13 @@
+Video Transcript
+[Music]
+
+[Kevin Smallwood] Now, let's talk about configuring Display settings. This is very similar across all of the major distributions. Usually, there's just real subtle differences between them. For example, let's look on an Ubuntu system.
+
+What we're going to do first is go to the Settings. So, we're going to come up here in the upper right-hand corner, click on that, then click on this little gear wheel here, and we bring up the Settings dialogue. This just happened to be where I last left it, which is Systems. But if we look along the left-hand menus here, and we can scroll up, we'll see that there's a setting along here called Displays. Now, on some systems, again, depending on the version of GNOME and so forth, you might also find this somewhere along here, where it says Devices. Then, you would click on that and it would give you Displays as an example. In this case, we're going to look at Displays directly and here we can see, for example, the orientation, the resolution so we can change this if we need to. We have lots of things to decide on the size that we might want it to be.
+
+I'm just going to continue with the size that I currently have it at. Also, the refresh rate and even the scaling. Okay. There's also a feature on here called Nightlight, which allows certain types of lighting during the night that's not supposed to stress your eyes and things like that. Okay. Anyway, that's how you would change this. Now, as it turns out, if there are multiple displays, there would actually be another line in here that shows the different displays, and you would be able to click on, usually a little menu that would drop down, and then you could display or select which display you want to examine. In this particular case, we just have this single display here, and that's all we need to do. But again, if I were to change this, let's go for the... how about this one, 1600 by 900. Okay. And then we would click on Apply. Okay.  
+
+And we can kind of see what the changes we have here. I'm going to go ahead and click on Revert Settings just because I may as well keep what it did have before. And again, this is very similar across all the major distributions. Usually, the hardest part is finding where the displays are. But again, that would be something that when you go into your settings, you would generally find it, usually either directly as Displays or somewhere along here there would be something that says Devices. You might have to scroll down and there would be something that would say like Devices, and then when you click on that, you would have Displays as a choice.
+
+[Music]
+
